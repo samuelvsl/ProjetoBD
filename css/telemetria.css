@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    src: url("Play/Play-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Play';
+    font-style: bold;
+    src: url("Play/Play-Bold.ttf");
+}
+
+body{
+    background: #CCC;
+}
+
+#geral{
+    background: #FAA;
+    height: 600px;
+    margin-left: calc(50% - 635px);
+    margin-top: 20px;
+    width: 1270px;
+}
+
+#menuLateral{
+    background: #FFF;
+    border-right: solid 3px #000;
+    float: left;
+    height: 600px;
+    width: 250px;
+}
+
+#menuLateral table{
+    margin-bottom: 10px;
+}
+
+#menuLateral button{
+    font-weight: bold;
+    margin: 2px 5px;
+    width: calc(100% - 10px);
+}
+
+#logoBaja{
+    background-color: #282828;
+    background-image: url("../imagens/logo.png");
+    background-size: 250px auto;
+    float: left;
+    height: 150px;
+    width: 247px;
+}
+
+#logoBaja span{
+    color: rgba(255, 51, 0, 0.5);
+    float: right;
+    font-weight: bold;
+    margin: 128px 3px 0px 0px;
+}
+
+#tabelaEstado{
+    width: 95px;
+    padding-right: 5px
+}
+
+#ladoEsquerdo{
+    /*background: #00F;*/
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    border-right: solid 3px #000;
+    float: left;
+    height: 600px;
+    width: 460px;
+}
+
+#ladoDireito{
+    /*background: rgba(255, 0, 0, 0.5);*/
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    float: left;
+    height: 600px;
+    width: 560px;
+}
+
+#divTermometroMotor{
+    /*background: #00BFFF;*/
+    background: url("../imagens/termometro-0.2.svg") no-repeat 20px;
+    float: left;
+    height: 200px;
+    width: 150px;
+}
+
+#divTermometroCVT{
+    /*background: #87CEEB;*/
+    background: url("../imagens/termometro-0.2.svg") no-repeat 20px;
+    float: left;
+    height: 200px;
+    width: 150px;
+}
+
+#divCombustivel{
+    background: url("../imagens/combustivel.svg") no-repeat;
+    float: left;
+    font-size: 100px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+    left: 40px;
+    top: 0px;
+}
+
+#divBateria{
+    /*background: #4682B4;*/
+    color: #0000AA;
+    float: left;
+    font-size: 100px;
+    height: 200px;
+    text-align: center;
+    width: 150px;
+}
+
+#divVelocimetro{
+    /*background: #B0C4DE;*/
+    float: left;
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    height: 350px;
+    text-align: center;
+    width: 450px;
+}
+
+#divPiloto{
+    /*background: #B0C4DE;*/
+    float: left;
+    height: 150px;
+    text-align: center;
+    width: 450px;
+}
+
+#divCarro{
+    /*background: #333399;*/
+    background: url("../imagens/carro.png") no-repeat center;
+    background-size: auto 450px;
+    float: left;
+    height: 450px;
+    text-align: center;
+    width: 550px;
+}
+
+#rpm{
+    background: #FAA;
+    float: left;
+    height: 550px;
+    margin: 25px;
+    width: 50px;
+}
+
+#velocimetroCirculoA{
+    /*border: solid 1px;*/
+    /*background: #F00;*/
+    /*background: url("../imagens/velocimetro00.svg") no-repeat;*/
+    /*border-radius: 100px;*/
+    float: left;
+    height: 360px;
+    margin-left: 15px;
+    position: absolute;
+    width: 420px;
+    z-index: 2;
+}
+
+
+#velocimetroCirculo00{
+    background: url("../imagens/velocimetro00.svg") no-repeat;
+}
+
+#velocimetroCirculo01{
+    background: url("../imagens/velocimetro01.svg") no-repeat;
+}
+
+#velocimetroCirculo02{
+    background: url("../imagens/velocimetro02.svg") no-repeat;
+}
+
+#velocimetroCirculo03{
+    background: url("../imagens/velocimetro03.svg") no-repeat;
+}
+
+#velocimetroCirculo04{
+    background: url("../imagens/velocimetro04.svg") no-repeat;
+}
+
+#velocimetroCirculo05{
+    background: url("../imagens/velocimetro05.svg") no-repeat;
+}
+
+#velocimetroCirculo06{
+    background: url("../imagens/velocimetro06.svg") no-repeat;
+}
+
+#velocimetroCirculo07{
+    background: url("../imagens/velocimetro07.svg") no-repeat;
+}
+
+#velocimetroCirculo08{
+    background: url("../imagens/velocimetro08.svg") no-repeat;
+}
+
+#velocimetroCirculo09{
+    background: url("../imagens/velocimetro09.svg") no-repeat;
+}
+
+#velocimetroCirculo10{
+    background: url("../imagens/velocimetro10.svg") no-repeat;
+}
+
+#velocimetroCirculo11{
+    background: url("../imagens/velocimetro11.svg") no-repeat;
+}
+
+#velocimetroCirculo12{
+    background: url("../imagens/velocimetro12.svg") no-repeat;
+}
+
+#velocimetroCirculo13{
+    background: url("../imagens/velocimetro13.svg") no-repeat;
+}
+
+#velocimetroCirculo14{
+    background: url("../imagens/velocimetro14.svg") no-repeat;
+}
+
+#velocimetroCirculo15{
+    background: url("../imagens/velocimetro15.svg") no-repeat;
+}
+
+#velocimetroCirculo16{
+    background: url("../imagens/velocimetro16.svg") no-repeat;
+}
+
+#velocimetroCirculo17{
+    background: url("../imagens/velocimetro17.svg") no-repeat;
+}
+
+#velocimetroCirculo18{
+    background: url("../imagens/velocimetro18.svg") no-repeat;
+}
+
+#divOdometro{
+    /*border: solid 1px;*/
+    color: #333;
+    float: left;
+    height: 60px;
+    margin: 50px 0px 0px calc(50% - 60px);
+    width: 120px;
+}
+
+#divOdometro span{
+    color: #181818;
+}
+
+#velocidade{
+    /*border: solid 1px;*/
+    color: #00A;
+    display: block;
+    float: left;
+    font-size: 130px;
+    height: 160px;
+    margin: 80px 0px 0px calc(50% - 80px);
+    width: 160px;
+}
+
+#kmh{
+    /*border: solid 1px;*/
+    display: block;
+    float: left;
+    font-size: 35px;
+    height: 50px;
+    margin: -25px calc(50% - 45px);
+    width: 90px;
+}
+
+#labelMotor{
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 137px 0px 0px 62px;
+}
+
+#labelCVT{
+    display: block;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 134px 0px 0px 65px;
+}
+
+#piloto{
+    color: #000;
+    font-size: 150px;
+    position: static;
+    z-index: 10;
+}
+
+#popoverPiloto{
+    display: block;
+
+}
+
+#forcaPiloto{
+    left: 350px;
+    top: 20px;
+}
+
+#forca1{
+    left: 10px;
+    top: 40px;
+}
+
+#forca2{
+    left: 350px;
+    top: 40px;
+}
+
+#forca3{
+    left: 10px;
+    top: 70px;
+}
+
+#forca4{
+    left: 350px;
+    top: 70px;
+}
+
+.drawTermometro{
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #F00;
+    border-left: 50px solid #0F0;
+    border-right: 50px solid #0F0;
+    border-bottom: 50px solid #00F;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.drawTermometro2{
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #F9BF3B;
+    border-left: 50px solid #F9BF3B;
+    border-bottom: 50px solid #F9BF3B;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.popForca{
+    float: left;
+    position: relative;
+    width: 100px;
+}
+
+.popForcaLeft{
+    border-top: 15px solid transparent;
+    border-right: 15px solid #FFF;
+    border-bottom: 15px solid transparent;
+    height: 0px;
+    left: -15px;
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 0px;
+}
+
+.popForcaRight{
+    border-top: 15px solid transparent;
+    border-left: 15px solid #FFF;
+    border-bottom: 15px solid transparent;
+    height: 0px;
+    right: -14px;
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 0px;
+}
+
+.panel-body{
+    padding: 5px;
+}
+
+.telemetriaIframe{
+    display: none;
+}
+
+.velocimetroCirculoClass{
+    display: none;
+    height: 360px;
+    margin-left: 15px;
+    position: absolute;
+    width: 420px;
+    z-index: 1;
+}
+
+.labelMotorClass{
+    display: none;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 137px 0px 0px 67px;
+    position: absolute;
+}

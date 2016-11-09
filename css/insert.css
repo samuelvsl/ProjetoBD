@@ -1,0 +1,30 @@
+.timerInsert{
+    border: solid 1px;
+    height: 100px;
+    width: 200px;
+}
+
+.titleInsert{
+    color: #377bb5;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.graphicInsert{
+    /*border: solid 1px;*/
+    height: 100px;
+    margin-left: 35px;
+    width: 100px;
+}
+
+.msInsert{
+    color: #377bb5;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
